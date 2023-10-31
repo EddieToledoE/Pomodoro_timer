@@ -1,0 +1,24 @@
+.slider {
+  height: 40px;
+  border: 2px solid rgba(14, 165, 233, 0.7);
+  border-radius: 20px;
+}
+.thumb {
+  background-color: rgba(14, 165, 233, 0.5);
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+.slider_descanso {
+  height: 40px;
+  border: 2px solid rgba(229, 252, 27, 0.5);
+  border-radius: 20px;
+}
+.thumb_descanso {
+  background-color: rgba(229, 252, 27, 0.5);
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
