@@ -1,0 +1,27 @@
+.slider{
+    height: 40px;
+    border: 2px solid #9E00FF;
+    border-radius: 20px;
+}
+.thumb{
+    background-color: #9E00FF;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.track{
+    background-color: aqua;
+}
+.slider_descanso{
+    height: 40px;
+    border: 2px solid #F3FF00;
+    border-radius: 20px;
+}
+.thumb_descanso{
+    background-color: #F3FF00;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
