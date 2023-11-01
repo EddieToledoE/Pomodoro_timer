@@ -1,6 +1,6 @@
 function botonplay(props) {
   return (
-    <button className="btn-lg px-2" {...props}>
+    <button className="px-2 py-2  bg-white rounded-full " {...props}>
       {/* {...props} */}
       <svg
         xmlns="http://www.w3.org/2000/svg"

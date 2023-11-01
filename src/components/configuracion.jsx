@@ -1,5 +1,4 @@
 import ReactSlider from "react-slider";
-import React from "react";
 import "../styles/sliders.css";
 import Botonvolver from "./botonvolver";
 import { useContext } from "react";
@@ -8,13 +7,12 @@ function Configuracion() {
   const contexto = useContext(ContextoConfiguracion);
   return (
     <div className="text-center">
-      <h1 className="text-white py-6">Configuracion</h1>
       <label className="text-white">
         Minutos de trabajo : {contexto.minutosTrabajo}:00
       </label>
       <ReactSlider
-        className="slider"
-        thumbClassName="thumb"
+        className={"slider"}
+        thumbClassName={"thumb"}
         trackClassName={"track"}
         value={contexto.minutosTrabajo}
         onChange={(newValue) => contexto.SetminutosTrabajo(newValue)}
@@ -33,7 +31,7 @@ function Configuracion() {
         min={1}
         max={15}
       />
-      <div className="bg-white mt-2 ">
+      <div className=" p-2 ">
         <Botonvolver />
       </div>
     </div>

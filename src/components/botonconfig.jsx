@@ -6,7 +6,7 @@ function Botonconfig(props) {
   return (
     <button
       onClick={() => contexto.SetmostrarConfiguracion(true)}
-      className="btn-lg pt-4"
+      className="px-2 py-2  bg-white rounded-full"
       {...props}
     >
       <svg
